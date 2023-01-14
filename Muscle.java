@@ -1,4 +1,6 @@
 public interface Muscle {
 
-    public String getTypeMuscle();
+    public String nomMuscle();
+
+    public String etatMuscle();
 }

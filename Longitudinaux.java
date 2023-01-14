@@ -1,14 +1,13 @@
-public class Longitudinaux implements Muscle, Envole{
+public class Longitudinaux implements Muscle{
 
-    public Longitudinaux() {}
 
     @Override
-    public String getTypeMuscle() {
+    public String nomMuscle() {
         return "Longitudinaux";
     }
 
     @Override
-    public void voler() {
-        System.out.println("Utilisation du muscle Longitudinaux");
+    public String etatMuscle() {
+        return "aucun mouvement";
     }
 }

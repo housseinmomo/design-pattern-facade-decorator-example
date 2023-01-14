@@ -7,7 +7,14 @@ public abstract class DecoratorMuscle implements Muscle{
     }
 
     @Override
-    public String getTypeMuscle() {
-        return this.muscle.getTypeMuscle();
+    public String nomMuscle(){
+        return muscle.nomMuscle();
     }
+
+    @Override
+    public String etatMuscle(){
+        return muscle.etatMuscle();
+    }
+
+
 }

@@ -1,11 +1,12 @@
-public class Transversaux implements Muscle, Envole{
+public class Transversaux implements Muscle{
+
     @Override
-    public String getTypeMuscle() {
+    public String nomMuscle() {
         return "Transversaux";
     }
 
     @Override
-    public void voler() {
-
+    public String etatMuscle() {
+        return "aucun mouvement";
     }
 }
